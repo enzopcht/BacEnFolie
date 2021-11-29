@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header #logo_petit {
+  height: 200px;
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  background-color: grey;
+  line-height: 70px;
+}
+
+header nav ul li:hover .sous {
+  display: block;
+}
+
+header nav ul li .sous {
+  font-size: 0.8rem;
+  display: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+}
+
+header nav ul li a:hover {
+  background-color: red;
+  opacity: 80%;
+}
+/*# sourceMappingURL=style.css.map */
