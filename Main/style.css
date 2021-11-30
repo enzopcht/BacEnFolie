@@ -2,20 +2,25 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100px;
 }
 
 header #logo_petit {
-  height: 200px;
+  height: 100px;
 }
 
 header nav {
-  width: 100%;
+  width: 60%;
+  margin: auto;
 }
 
 header nav ul {
@@ -24,15 +29,19 @@ header nav ul {
   padding: 0;
 }
 
+header nav ul .nav-menu {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
 header nav ul li {
   margin: 0;
   padding: 0;
   float: left;
-  width: 200px;
-  height: 70px;
+  width: 20%;
+  height: 50px;
   text-align: center;
-  background-color: grey;
-  line-height: 70px;
+  line-height: 50px;
 }
 
 header nav ul li:hover .sous {
@@ -42,17 +51,21 @@ header nav ul li:hover .sous {
 header nav ul li .sous {
   font-size: 0.8rem;
   display: none;
+  width: 100%;
+  border-width: 0 1px 1px 1px;
+  border-color: black;
+  border-style: solid;
 }
 
 header nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   display: block;
 }
 
 header nav ul li a:hover {
-  background-color: red;
+  background-color: #a8dadc;
   opacity: 80%;
 }
 /*# sourceMappingURL=style.css.map */
